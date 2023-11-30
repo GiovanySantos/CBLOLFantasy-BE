@@ -29,4 +29,17 @@ After you run it, husky will run the commitlint to ensure that the commit messag
 git push -u origin my-branch-name
 ```
 
-5 -
+5 - After push your changes to your branch, go to [Github PR page](https://github.com/GiovanySantos/CBLOLFantasyBE/pulls) and it should have a header with a 'Compare & pull request' green button, click on it!
+![Alt text](image.png)
+
+6 - Change the title to explain your change, example:
+'Create user service' then describe your change in the field and finally click on the 'Create pull request' button
+![Alt text](image-1.png)
+
+7 - In the menu on the right you have to select a reviewer on the list by clicking on the tool icon
+
+8 - Below the reviewer section, select yourself as as asignee by clickg 'assign to yourself'
+
+9 - then select the label and the project related to this PR
+
+10 - Ready! your PR is ready to be reviewed and if acceped, merged to the main branch :)
