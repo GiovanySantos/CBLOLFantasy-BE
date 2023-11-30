@@ -1,4 +1,4 @@
-name: ${{ github.actor }} - CD/CD
+name: CD/CD
 run-name: ${{ github.actor }} pipeline 🚀
 on: [push]
 jobs:
