@@ -1,7 +1,7 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 
-import { schema, resolvers } from './graphql/index.js';
+import { schema, resolvers } from './graphql';
 
 const buildServer = async () => {
   const server = new ApolloServer({
