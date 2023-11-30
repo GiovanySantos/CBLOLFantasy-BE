@@ -3,7 +3,7 @@ const Configuration = {
   formatter: '@commitlint/format',
   rules: {
     'type-enum': [
-      RuleConfigSeverity.Error,
+      2,
       'always',
       ['chore', 'docs', 'feat', 'fix', 'refactor', 'test'],
     ],
