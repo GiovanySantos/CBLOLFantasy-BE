@@ -1,3 +1,3 @@
-import { buildServer } from './server.js';
+import { buildServer } from './server';
 
 buildServer();

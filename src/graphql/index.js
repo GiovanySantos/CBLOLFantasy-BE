@@ -1,4 +1,3 @@
-import { typeDefs as schema } from './schema.js';
-import { resolvers } from './resolver.js';
+import { typeDefs as schema, resolvers } from './schema';
 
 export { schema, resolvers };

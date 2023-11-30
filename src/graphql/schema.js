@@ -1,7 +1,15 @@
 import gql from 'graphql-tag';
 
-export const typeDefs = gql`
+const typeDefs = gql`
   type Query {
     hello: String!
   }
 `;
+
+const resolvers = {
+  Query: {
+    hello: () => 'Hello world!',
+  },
+};
+
+export { typeDefs, resolvers };
