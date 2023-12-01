@@ -1,4 +1,4 @@
-## Git Flow
+## Steps to make a pull request
 
 To push new code to main branch you should follow these steps
 
